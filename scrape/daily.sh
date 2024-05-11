@@ -1,5 +1,5 @@
 #!/bin/bash
-source ~/env/prayer/bin/activate
-cd ~/saffat/scrape/
+source <path to virtual environment>
+cd ./scrape
 python3 main.py >> output
 deactivate
