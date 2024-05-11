@@ -4,3 +4,4 @@
 env
 multivm
 */daily.sh
+*/__pycache__
