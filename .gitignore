@@ -1,2 +1,4 @@
 .idea
 database/db.sqlite
+saffat/api/saffat.sock
+env
