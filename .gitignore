@@ -1,4 +1,6 @@
 .idea
-database/db.sqlite
-saffat/api/saffat.sock
+*/db.sqlite
+*/saffat.sock
 env
+multivm
+*/daily.sh
