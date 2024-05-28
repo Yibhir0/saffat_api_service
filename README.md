@@ -55,8 +55,8 @@
  - sudo systemctl status saffat
 # Set up Nginx:
  -  sudo apt install nginx
- -   sudo vim /etc/nginx/sites-available/saffat.conf
- -   paste:
+ -  sudo vim /etc/nginx/sites-available/saffat.conf
+ - paste:
    server { <br>
     listen 80;<br>
     server_name <ip/host>;<br>
