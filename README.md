@@ -29,7 +29,7 @@
   - run flask app
   - http://ip
 # set up gunicorn:
-	- pip install gunicorn
+  - pip install gunicorn
   - gunicorn --bind 0.0.0.0:5000 wsgi:app
   - sudo fuser -k 5000/tcp ----> to kill all processes associated with 5000
   - http://ip
@@ -56,7 +56,7 @@
 # Set up Nginx:
  -  sudo apt install nginx
  -  sudo vim /etc/nginx/sites-available/saffat.conf
- - paste:
+ - paste:<br>
    server { <br>
     listen 80;<br>
     server_name <ip/host>;<br>
